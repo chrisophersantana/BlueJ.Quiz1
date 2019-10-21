@@ -9,8 +9,16 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
-  }
+       
+      int num1 = 7,num2 = 8 , sum;
+          sum = num1 + num2;
+        
+          return sum;
+    
+    }
+
+  
+
 
   /**
    * Add two number together
@@ -19,7 +27,11 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Double add(Double baseValue, Double valueToAdd){
-      return null;
+      double num1 = 10.0,num2 = 1.22 , sum;
+          sum = num1 + num2;
+        
+          
+      return sum;
   }
 
   /**
@@ -47,7 +59,18 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      return null;
+      
+      int numb1 = 1 , sqrt;
+      sqrt = numb1 * numb1;
+      return sqrt;
+      
+      
+      
+      
+      
+      
+      
+    }
+     
   }
 
-}
