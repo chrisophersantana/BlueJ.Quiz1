@@ -11,8 +11,8 @@ public class LoopFun
        */
       public Integer factorial(Integer number){
           int i ,fact = 1;
-          int number1 = 5;
-          for(i = 1;i <= number1;i++) {
+         
+          for(i = 1;i <= number;i++) {
               fact = fact * i;
           
           
