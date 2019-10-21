@@ -15,6 +15,11 @@ public class StringUtilities {
      * @return the concatenation of `baseValue` and `valueToBeAdded`
      */
     public String concatenate(String baseValue, String valueToBeAdded) {
+        String string = baseValue;
+        String string2 = valueToBeAdded;
+        
+        
+        
         return null;
     }
 

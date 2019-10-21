@@ -10,8 +10,16 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          return null;
-      }
+          int i ,fact = 1;
+          int number1 = 5;
+          for(i = 1;i <= number1;i++) {
+              fact = fact * i;
+          
+          
+            }
+          return fact;
+        }
+      
 
       /**
        * Given a phrase, get the acronym of that phrase. Acronym is the combination of
